@@ -2,15 +2,6 @@ import tweepy
 import time
 import random
 
-CONSUMER_KEY = 'nt0ilxs3zrufBkfERUsFjzAz1'
-CONSUMER_SECRET = '7PnVz1QFDKMoGjoxCvL5X4DnrYrJGTmcH5PbWRkfx2mEjzUvGj'
-ACCESS_KEY = '1243929084310290432-VkNa00Amg5j73Rm6FyPemrkPNZrSg4'
-ACCESS_SECRET = 'rDlkrSpJxohU6KYEFFOjXY6zlHSxgTsUBg5YEahQsXn0U'
-
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
-api = tweepy.API(auth)
-
 # gets the randpm song title and artists and tweets out the hit song
 def create_tweet():
     # //////////////////////////     TITLE    //////////////////////////
